@@ -1,6 +1,6 @@
 package com.javaintro.methods;
 
-public class BankAccount {
+public class BankAccount1 {
 	static int balance=1000;
 	
 	static  void deposit(int amount)
