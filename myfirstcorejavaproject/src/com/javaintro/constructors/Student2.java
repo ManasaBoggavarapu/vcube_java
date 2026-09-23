@@ -7,11 +7,16 @@ public class Student2{
 	Student2(){
 		sid=101;
 		name="unknown";
+
+	
 	}
 	
 	
 //Parameterized constructor
 	Student2(int sid,String name){
+		
+		this.sid=sid;
+		this.name=name;
 	   	
 		
 	}
