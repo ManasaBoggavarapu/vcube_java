@@ -21,7 +21,3 @@ void Studentinfo()
 }
 }
 
-
-
-
-	
