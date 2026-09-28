@@ -1,4 +1,4 @@
-]package com.javaintro.constructors;
+package com.javaintro.constructors;
 
 public class HeadphoneChaining {
 	String brand;
@@ -6,16 +6,17 @@ public class HeadphoneChaining {
 	double price;
 	
 	HeadphoneChaining()
-	{
-		this(brand,"WIRELESS");
+	{  this("sony");
+
+		
 	}
 	HeadphoneChaining(String brand)
-	{
-		this(brand,Type,5000.00);
+	{   this(brand,"WIRELESS");
+		
 	}
 	HeadphoneChaining(String brand,String Type)
 	{
-		this("sony");
+		this(brand,Type,5000.00);
 	}
 	HeadphoneChaining(String brand,String Type,double price)
 	{
@@ -36,3 +37,4 @@ public class HeadphoneChaining {
     	    System.out.println("HEAD PHONE TYPE IS:"+Type);
     	    System.out.println("HEADPHONE PRICE IS:"+price);
     }
+}   
