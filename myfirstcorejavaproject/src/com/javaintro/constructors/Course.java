@@ -18,11 +18,11 @@ public class Course {
 class java extends Course
 {
 	java()
-	{
+	{    super();
 		System.out.println("no arg called  from java");
 	}
 	java(String name,float cost, int duration)
-	{
+	{   super();
 		super.name=name;
 		super.cost=cost;
 		super.duration=duration;

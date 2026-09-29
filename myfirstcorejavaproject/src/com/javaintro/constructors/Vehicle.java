@@ -3,7 +3,7 @@ package com.javaintro.constructors;
 public  class Vehicle{
     String brand;
     String model;
-    double price;
+    double price; 
      Vehicle()
      {
     	  System.out.println("no args constructor called from vehicle");
