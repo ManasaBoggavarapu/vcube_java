@@ -12,10 +12,10 @@ class Vehicle1{
 //   public static void main(String[] args)
 		{
 			System.out.println("main method from Vehicle");		
-//		}
+	}
 
 
-
+}
 class Car extends Vehicle1
 {
          String brand;
@@ -49,8 +49,5 @@ public class ElectricCar extends Car{
        ElectricCar e= new ElectricCar("four wheeler","Kia",150000.00,45000.00);	
        e.display();
 	}
-
 }
-
-
 
